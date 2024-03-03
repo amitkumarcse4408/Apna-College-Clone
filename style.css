@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    
+
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    list-style-type: none;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    width: 150px;
+    height: 120px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 40px;
+    position: relative;
+    bottom: 20%;
+    left: 20px;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav ul li button{
+    color:black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    
+}
+.dropbtn {
+    color:black;
+    padding: 10px 10px;
+    font-size: 16px;
+    top: 40px;
+    border: none;
+    
+  }
+  
+  .dropdown {
+    position: relative;
+    top: 17px;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1001;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    width: 300px;
+    /* margin: 10px 10px; */
+    padding: 7px 10px;
+    text-decoration: none;
+    display: block;
+    font-weight:550;
+    float: none;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+nav ul li{
+    display: inline-block;
+    margin: 12px 7px;
+}
+.nav_button1{
+    background-color: #6674CC;
+    color: white;
+    border-radius: 9px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.Signup{
+    background-color:white;
+    color:#6674CC;
+    border-radius: 4.2px;
+    font-size: 1rem;
+    width: 90px;
+    border: 2px solid #6674CC;
+    font-weight: bold;
+    
+}
+.container1{
+    background-image: url('apnacollegebackground.jpeg');
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    position: relative;
+    z-index: 1;
+}
+.container1 div{
+    margin: 40px 60px;
+    padding-top: 1px;
+}
+.dynamic_text span{
+    position:relative;
+}
+.dynamic_text span::before{
+    content: "Sigma - DSA + Web Development";
+    color:black;
+    font-weight: 300;
+    font-size: larger;
+    animation: words 5s infinite;
+}
+.dynamic_text span::after{
+    content: "";
+    position: absolute;
+    border-left: 2px solid rgb(218, 31, 31);
+    
+    
+}
+
+@keyframes words {
+    0%,25%{
+        content: "Sigma - DSA + Web Development";
+    }
+    26%,50%{
+        content: "Delta -Development";
+    }
+    51%,75%{
+        content: "Sigma - DSA+Development";
+    }
+    76%,100%{
+        content: "Alpha - DSA";
+    }
+}
+.container1 ul li h1{
+    padding-top: 25px;
+    font-size: 3em;
+    
+    
+}
+.container1 ul li{
+    margin: 5px 15px;
+    padding: 15px 5px;
+    
+}
+.container1_inner2 img{
+    width:435px;
+    height: 430px;
+}
+.container1_button{
+    width: 250px;
+    height: 50px;
+    font-size: larger;
+    border-radius: 15px;
+    background-color: #6674CC;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
